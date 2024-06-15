@@ -3,6 +3,32 @@ body, html {
     margin: 0;
     padding: 0;
   }
+
+/* Estilos para el acordeón */
+.accordion-button {
+  background-color: #333; 
+  color: #ffffff;
+  min-height: 50px; 
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+  background-color: #851cde; 
+  color: #ffffff;
+}
+
+.accordion-body {
+  background-color: #333;
+  color: #ffffff; 
+  min-height: 50px; 
+}
+
+.accordion-body:focus,
+.accordion-body:active {
+  background-color: #851cde;
+  
+}
+
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font stack for better readability */
