@@ -4,6 +4,10 @@ import '../lan.css'; // Importar tu CSS personalizado
 import Acc from '../components/lan/accordion';
 import Plan from '../components/lan/plan';
 import Car from '../components/lan/car';
+import Section from '../components/lan/section';
+import Bienvenida from '../components/lan/bienvenida';
+
+
 
 export default function Lan() {
   return (
@@ -21,9 +25,11 @@ export default function Lan() {
       </header>
 
       <main className="App-main">
+        <Bienvenida/>
         <Car/>
         <Plan />
         <Acc/>
+        <Section/>
       </main>
 
       <footer className="App-footer">

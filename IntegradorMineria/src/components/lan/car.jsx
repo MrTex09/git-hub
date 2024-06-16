@@ -13,7 +13,7 @@ export default function Car() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400"
+          src="../../../public/images/images.jpg"
           alt="First slide"
           style={carouselImageStyle}  // Aplicar estilo aquí
         />
@@ -25,7 +25,7 @@ export default function Car() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400"
+          src="../../../public/images/images.jpg"
           alt="Second slide"
           style={carouselImageStyle}  // Aplicar estilo aquí
         />
@@ -36,7 +36,7 @@ export default function Car() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400"
+          src="../../../public/images/images.jpg"
           alt="Third slide"
           style={carouselImageStyle}  // Aplicar estilo aquí
         />
