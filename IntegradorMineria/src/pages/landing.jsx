@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importar CSS de Bootstrap
 import '../lan.css'; // Importar tu CSS personalizado
-import Acc from '../components/lan/accordion';
-import Plan from '../components/lan/plan';
-import Car from '../components/lan/car';
-import Section from '../components/lan/section';
-import Bienvenida from '../components/lan/bienvenida';
+import Bienvenida from '../components/landing/bienvenida';
+import Car from '../components/landing/carusel';
+import Acc from '../components/landing/accordion';
+import Plan from '../components/landing/card';
+import Section from '../components/landing/section';
 
 
 
@@ -13,23 +13,22 @@ export default function Lan() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Elige un plan</h1>
+        <h1>GIT HUB</h1>
         <nav className="App-nav">
           <ul>
-            <li><a href="#plan-simple">Plan Simple</a></li>
-            <li><a href="#plan-avanzado">Plan Avanzado</a></li>
-            <li><a href="#plan-premium">Plan Premium</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#intruduccion">Intruducion</a></li>
+            <li><a href="#ramas">ramas</a></li>
+            <li><a href="#colaboracion">colaboracion</a></li>
           </ul>
         </nav>
       </header>
 
       <main className="App-main">
-        <Bienvenida/>
-        <Car/>
+        <Bienvenida />
+        <Car />
         <Plan />
-        <Acc/>
-        <Section/>
+        <Acc />
+        <Section />
       </main>
 
       <footer className="App-footer">
