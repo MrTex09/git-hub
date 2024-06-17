@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import '../../lan.css'; // Importa tu archivo CSS aquí
+import '../../landing.css'; // Importa tu archivo CSS aquí
 
 export default function Acc() {
   return (
