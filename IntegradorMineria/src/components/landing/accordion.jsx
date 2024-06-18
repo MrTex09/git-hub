@@ -2,7 +2,7 @@ import React from 'react';
 import { Accordion } from 'react-bootstrap';
 import '../../landing.css';
 
-export default function Acc() {
+export default function Acordion() {
   return (
     <Accordion>
       <Accordion.Item eventKey="0">

@@ -10,7 +10,7 @@ const carouselImageStyle = {
   margin: "50px"
 };
 
-export default function Car() {
+export default function Carusel() {
   return (
     <Carousel>
       <Carousel.Item>

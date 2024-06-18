@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Plan() {
+export default function Card() {
   return (
     <div className="d-flex p-2 plan">
       <section id="intruduccion" className="Plan">
@@ -34,7 +34,7 @@ export default function Plan() {
           <li>Despliegue continuo</li>
           <li>Automatización de tareas</li>
         </ul>
-        <a href="https://www.gitkraken.com/learn/git/best-practices/git-workflows" target="_blank" rel="noopener noreferrer">
+        <a href="https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository" target="_blank" rel="noopener noreferrer">
           <button className="Plan-button">Descubre más</button>
         </a>
       </section>

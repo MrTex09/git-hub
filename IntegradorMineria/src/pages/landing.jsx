@@ -2,9 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import '../landing.css'; 
 import Bienvenida from '../components/landing/bienvenida';
-import Car from '../components/landing/carusel';
-import Acc from '../components/landing/accordion';
-import Plan from '../components/landing/card';
+import Carusel from '../components/landing/carusel';
+import Acordion from '../components/landing/accordion';
+import  Card from '../components/landing/card';
 import Section from '../components/landing/section';
 import Header from '../components/Header/Header';
 
@@ -15,9 +15,9 @@ export default function Lan() {
       <Header/>
       <main className="App-main">
         <Bienvenida />
-        <Car />
-        <Plan />
-        <Acc />
+        <Carusel />
+        <Card />
+        <Acordion />
         {/* <Section /> */}
       </main>
 
