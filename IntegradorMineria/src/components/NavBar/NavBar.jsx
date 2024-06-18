@@ -5,10 +5,10 @@ const NavBar = () => {
     return (
         <ul className={`white-text ${styles.navbar}`}>
             <li>
-                <a href="/">Home</a>
+                <a href="/">Inicio</a>
             </li>
             <li>
-                <a href="/gallery">Gallery</a>
+                <a href="/gallery">Actividades</a>
             </li>
         </ul>
     )

@@ -28,7 +28,7 @@ export default function Plan() {
       </section>
 
       <section id="colaboracion" className="Plan">
-        <h2>Colaboracion</h2>
+        <h2>Colaboración</h2>
         <ul>
           <li>Integración continua</li>
           <li>Despliegue continuo</li>

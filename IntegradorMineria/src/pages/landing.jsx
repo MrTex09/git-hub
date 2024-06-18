@@ -1,6 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importar CSS de Bootstrap
-import '../landing.css'; // Importar tu CSS personalizado
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import '../landing.css'; 
 import Bienvenida from '../components/landing/bienvenida';
 import Car from '../components/landing/carusel';
 import Acc from '../components/landing/accordion';
@@ -18,7 +18,7 @@ export default function Lan() {
         <Car />
         <Plan />
         <Acc />
-        <Section />
+        {/* <Section /> */}
       </main>
 
       <footer className="App-footer">

@@ -3,6 +3,9 @@ import styles from './ImageContainer.module.css'
 import ImageCard from '../ImageCard/ImageCard'
 
 const ImageContainer = ({ images }) => {
+
+
+
     return (
         <div 
             className={`
@@ -13,8 +16,9 @@ const ImageContainer = ({ images }) => {
             {
                 images.map((image, index) => (
                     <ImageCard
-                        image={image}
+                        image={image.image}
                         key={index}
+                        info={image.info}
                     />
                 ))
             }

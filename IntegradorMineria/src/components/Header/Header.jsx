@@ -5,7 +5,7 @@ import NavBar from '../NavBar/NavBar'
 const Header = () => {
     return (
         <div className={`main-dark-grey white-text ${style.header}`}>
-            <h1>GitHub</h1>
+            <h2>GitHub</h2>
             <NavBar/>
         </div>
     )
