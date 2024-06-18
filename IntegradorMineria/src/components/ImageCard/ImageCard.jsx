@@ -7,8 +7,8 @@ const ImageCard = ({ image, info }) => {
             <img src={image} alt="image" />
             <h3>{info.title}</h3>
             <div className={`w-100 ${styles['buttons-container']}`}>
-                <button className='main-white light-grey-text'>Description</button>
-                <button className='main-white light-grey-text'>Learn more</button>
+                <button className='main-violet white-text'>Description</button>
+                <button className='main-violet white-text' onClick={() => window.open("https://github.com/", "_blank")}>Learn more</button>
             </div>
         </div>
     )
